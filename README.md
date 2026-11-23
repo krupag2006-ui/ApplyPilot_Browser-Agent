@@ -6,7 +6,7 @@
 
 ApplyPilot is an AI-powered autonomous browser agent designed to simplify the process of applying for internships, jobs, scholarships, and other opportunities.
 
-It uses AI to understand user profiles, discover relevant opportunities, evaluate eligibility, and assist with repetitive application tasks through browser automation.
+It understands user profiles, discovers relevant opportunities, evaluates eligibility, and assists with repetitive application tasks through browser automation.
 
 ## Problem Statement
 
