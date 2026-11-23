@@ -1,0 +1,229 @@
+[
+  {
+    "id": "backend-intern",
+    "company": "Pebblewing Systems (Fictional)",
+    "role": "Backend Engineering Intern",
+    "location": "Remote (India)",
+    "deadline": "2027-06-15",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "be",
+        "bca",
+        "mca"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "frontend-intern",
+    "company": "Lantern Finch Labs (Fictional)",
+    "role": "Frontend Engineering Intern",
+    "location": "Bengaluru, India",
+    "deadline": "2027-06-16",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "be",
+        "bca",
+        "bsc"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "data-analyst-intern",
+    "company": "Mosaic Acorn Analytics (Fictional)",
+    "role": "Data Analyst Intern",
+    "location": "Pune, India",
+    "deadline": "2027-06-17",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Data Analysis"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "bsc",
+        "bcom",
+        "btech",
+        "msc"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "qa-intern",
+    "company": "Blue Tern Quality (Fictional)",
+    "role": "QA Automation Intern",
+    "location": "Hyderabad, India",
+    "deadline": "2027-06-18",
+    "required_skills": [
+      "Python",
+      "Playwright",
+      "pytest",
+      "Git"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "be",
+        "bca",
+        "diploma"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "ml-intern",
+    "company": "Cedar Orbit Research (Fictional)",
+    "role": "Machine Learning Intern",
+    "location": "Remote (India)",
+    "deadline": "2027-06-19",
+    "required_skills": [
+      "Python",
+      "pandas",
+      "scikit-learn",
+      "Statistics"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "bsc",
+        "mtech",
+        "msc"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "cloud-intern",
+    "company": "Copper Kestrel Cloud (Fictional)",
+    "role": "Cloud Operations Intern",
+    "location": "Chennai, India",
+    "deadline": "2027-06-20",
+    "required_skills": [
+      "Linux",
+      "Docker",
+      "AWS",
+      "Bash"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "be",
+        "diploma"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "fullstack-intern",
+    "company": "Juniper Paper Software (Fictional)",
+    "role": "Full-Stack Web Intern",
+    "location": "Mumbai, India",
+    "deadline": "2027-06-21",
+    "required_skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "bca",
+        "mca"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "database-intern",
+    "company": "Quartz Sprout Data (Fictional)",
+    "role": "Database Engineering Intern",
+    "location": "Noida, India",
+    "deadline": "2027-06-22",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Git"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "bsc",
+        "mca",
+        "msc"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "design-intern",
+    "company": "Velvet Kite Studio (Fictional)",
+    "role": "UI Prototyping Intern",
+    "location": "Remote (India)",
+    "deadline": "2027-06-23",
+    "required_skills": [
+      "Figma",
+      "HTML",
+      "CSS"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "ba",
+        "bsc",
+        "btech",
+        "diploma"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  },
+  {
+    "id": "software-intern",
+    "company": "Marble Wren Computing (Fictional)",
+    "role": "Software Engineering Intern",
+    "location": "Kochi, India",
+    "deadline": "2027-06-24",
+    "required_skills": [
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Git"
+    ],
+    "eligibility_requirements": {
+      "allowed_degrees": [
+        "btech",
+        "be",
+        "bca",
+        "mca"
+      ],
+      "graduation_year_min": 2025,
+      "graduation_year_max": 2028
+    }
+  }
+]
