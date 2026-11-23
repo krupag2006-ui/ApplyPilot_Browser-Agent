@@ -51,7 +51,13 @@ def main() -> None:
 
     try:
         with sync_playwright() as playwright:
-            browser = playwright.chromium.launch(headless=False)
+            try:
+                browser = playwright.chromium.launch(headless=False)
+            except Error:
+                try:
+                    browser = playwright.chromium.launch(channel="chrome", headless=False)
+                except Error:
+                    browser = playwright.chromium.launch(channel="msedge", headless=False)
             context = browser.new_context(service_workers="block")
             page = context.new_page()
             fill_demo(page, args.application_id, profile)

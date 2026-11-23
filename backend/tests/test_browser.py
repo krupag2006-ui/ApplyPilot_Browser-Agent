@@ -15,8 +15,12 @@ from conftest import upload
 
 def test_browser_fills_and_waits_for_manual_submission(database, demo_pdf, monkeypatch):
     with sync_playwright() as playwright:
+        use_channel = None
         if not Path(playwright.chromium.executable_path).exists():
-            pytest.skip("Playwright Chromium is unavailable. Run python -m playwright install chromium.")
+            if Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe").exists():
+                use_channel = "chrome"
+            else:
+                pytest.skip("Playwright Chromium is unavailable. Run python -m playwright install chromium.")
         with socket.socket() as listener:
             listener.bind(("127.0.0.1", 0))
             origin = f"http://127.0.0.1:{listener.getsockname()[1]}"
@@ -39,7 +43,7 @@ def test_browser_fills_and_waits_for_manual_submission(database, demo_pdf, monke
                     with database() as db:
                         profile = db.get(Profile, profile_id)
 
-                    browser = playwright.chromium.launch()
+                    browser = playwright.chromium.launch(channel=use_channel) if use_channel else playwright.chromium.launch()
                     page = browser.new_context(service_workers="block").new_page()
                     browser_agent.fill_demo(page, application_id, profile)
                     assert page.get_by_label("Name").input_value() == profile.name
